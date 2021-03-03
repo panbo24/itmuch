@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://115.28.186.77:30306/content_center?serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL
+    hikari:
+      username: dop
+      password: Dop_mysql_12345
+      driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8010
+
